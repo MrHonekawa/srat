@@ -57,30 +57,21 @@ Smart<spam>Token</spam> - BEP(20)</h5>
 <li><a href="https://t.me/getrat"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
 </ul>
 </div>
-<!--- <div class="box">
-  <img src="20211028_014146.png" alt="sWabbit" class="box-img"><img src="20211029_163704.png" alt="BCH" class="box-img">
-    <h1>Calculate Price of <spam>sWabbit</spam> in <spam>BCH!</spam></h1>
+<div class="box">
+  <img src="assets/loader.gif" alt="sRat" class="box-img"><img src="" class="box-img">
+    <h1>Calculate MCAP of <spam>sRat</spam> in <spam>BNB!</spam></h1>
     <form name="frm-pin" method="post" action="pin-index-b.php">
         <input type="hidden" name="mode" value="PinRequest2" />
-        <label class="w3-text-green"><i>Number Of sWabbit: </i></label><br><br><br><br>
+        <label class="w3-text-green"><i>Number Of sRat: </i></label><br><br><br><br>
         <select name="tot_pin_requested2" onchange="calculateAmountt(this.value)" required>
 			<option value="" disabled selected>Choose your option</option>
-			<option value="1">1</option>
-			<option value="100">100</option>
-			<option value="200">200</option>
-			<option value="500">500</option>
-			<option value="800">800</option>
-			<option value="1000">1k</option>
-			<option value="2000">2k</option>
-			<option value="3000">3k</option>
-			<option value="4000">4k</option>
-			<option value="5000">5k</option>
+			<option value="500000000000">500b</option>
 		</select>
-        <br><br><br><br><label><i>Price in <spam>BCH</spam> (approx): </i></label><br><br><br><br>
+        <br><br><br><br><label><i>Price in <spam>BNB</spam> (approx): </i></label><br><br><br><br>
         <input class="w3-input w3-border" name="tot_amount2" id="tot_amount2" type="text" readonly>
         <script>
             function calculateAmountt(val) {
-                var tot_price2 = val * 0.0003;
+                var tot_price2 = val * 0.000000001;
                 /*display the result*/
                 var divobj = document.getElementById('tot_amount2');
                 divobj.value = tot_price2;
@@ -88,10 +79,10 @@ Smart<spam>Token</spam> - BEP(20)</h5>
         </script>
 <br>
 <ul>
-<li><a href="https://t.me/smartwabbit"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+<li><a href="https://t.me/getrat"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
 </ul>
 </div>
-<div class="box">
+<!--- <div class="box">
   <img src="20211028_014146.png" alt="sWabbit" class="box-img"><img src="20211029_162403.png" alt="INR" class="box-img">
     <h1>Calculate Price of <spam>sWabbit</spam> in <spam>INR!</spam></h1>
     <form name="frm-pin" method="post" action="pin-index-c.php">
